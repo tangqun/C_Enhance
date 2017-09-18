@@ -18,6 +18,9 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="动态库.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{9F854610-3FA8-44FC-9D87-AF1A0F0B48D7}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>

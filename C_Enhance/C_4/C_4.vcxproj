@@ -18,6 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="多维数组的本质.c" />
+    <ClCompile Include="数组的本质.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A9280651-ADFB-4C9A-A69F-B0A69779D775}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
