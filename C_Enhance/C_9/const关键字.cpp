@@ -9,7 +9,7 @@ void f1()
 //#undef a
 }
 
-void main()
+void main03()
 {
 	printf("a = %d, b = %d \n", a, 11);
 
