@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{FD94613D-353E-4721-90CF-829562CFC5ED}</ProjectGuid>
+    <ProjectGuid>{DE7C7FFC-4041-4828-A365-8C1ABA5D2F25}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>C_9</RootNamespace>
+    <RootNamespace>C_10</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,9 +146,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="02_const关键字.cpp" />
-    <ClCompile Include="01_Hello.cpp" />
-    <ClCompile Include="03_引用.cpp" />
+    <ClCompile Include="05_函数重载.cpp" />
+    <ClCompile Include="03_常量引用.cpp" />
+    <ClCompile Include="01_引用.cpp" />
+    <ClCompile Include="04_引用的本质.cpp" />
+    <ClCompile Include="02_指针的引用.cpp" />
+    <ClCompile Include="06_类的封装.cpp" />
+    <ClCompile Include="MainClass.cpp" />
+    <ClCompile Include="MyCircle.cpp" />
+    <ClCompile Include="MyPoint.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyCircle.h" />
+    <ClInclude Include="MyPoint.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="接口封装设计.c" />
-    <ClCompile Include="文件基本操作.c" />
+    <ClCompile Include="02_接口封装设计.c" />
+    <ClCompile Include="01_文件基本操作.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1DE57028-A6B1-4D38-A633-0A3B9905636B}</ProjectGuid>

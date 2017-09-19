@@ -19,10 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="const关键字.c" />
-    <ClCompile Include="两个辅助指针变量挖字符串.c" />
-    <ClCompile Include="二级指针第一种内存模型.c" />
-    <ClCompile Include="二级指针第二种内存模型.c" />
+    <ClCompile Include="03_const关键字.c" />
+    <ClCompile Include="04_两个辅助指针变量挖字符串.c" />
+    <ClCompile Include="01_二级指针第一种内存模型.c" />
+    <ClCompile Include="02_二级指针第二种内存模型.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{38F6A64D-E310-43DD-B3C6-87D06480855F}</ProjectGuid>

@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="二级指针第三种内存模型.c" />
-    <ClCompile Include="结构体基础.c" />
+    <ClCompile Include="01_二级指针第三种内存模型.c" />
+    <ClCompile Include="02_结构体基础.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{AEA02155-5A84-4E2F-B7BE-13821699D010}</ProjectGuid>

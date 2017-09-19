@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="数组的本质.c">
+    <ClCompile Include="01_数组的本质.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="多维数组的本质.c">
+    <ClCompile Include="02_多维数组的本质.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

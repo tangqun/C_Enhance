@@ -48,7 +48,7 @@ SList *Create()
 			Destory(pHead);
 			return NULL;
 		}
-		pM->data == data;
+		pM->data = data;
 		pM->next = NULL;
 
 		// 2、让 pM 节点入链表
@@ -314,7 +314,7 @@ void main()
 	if (0 != NULL)
 	{
 		printf("func Print errCode: %d", ret);
-		return ret;
+		return;
 	}
 	printf("\n");
 
@@ -329,7 +329,7 @@ void main()
 	if (0 != NULL)
 	{
 		printf("func Print errCode: %d", ret);
-		return ret;
+		return;
 	}
 	printf("\n");
 
@@ -344,7 +344,7 @@ void main()
 	if (0 != NULL)
 	{
 		printf("func Print errCode: %d", ret);
-		return ret;
+		return ;
 	}
 	printf("\n");
 
@@ -352,14 +352,14 @@ void main()
 	if (0 != NULL)
 	{
 		printf("func Reverse errCode: %d", ret);
-		return ret;
+		return;
 	}
 
 	ret = Print(pHead);
 	if (0 != NULL)
 	{
 		printf("func Print errCode: %d", ret);
-		return ret;
+		return;
 	}
 	printf("\n");
 

@@ -15,17 +15,40 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01_二级指针第一种内存模型.c">
+    <ClCompile Include="01_引用.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="02_二级指针第二种内存模型.c">
+    <ClCompile Include="02_指针的引用.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="03_const关键字.c">
+    <ClCompile Include="03_常量引用.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="04_两个辅助指针变量挖字符串.c">
+    <ClCompile Include="04_引用的本质.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="05_函数重载.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="06_类的封装.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCircle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainClass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyCircle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
