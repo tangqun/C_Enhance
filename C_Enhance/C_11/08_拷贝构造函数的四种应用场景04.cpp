@@ -48,13 +48,22 @@ A4::~A4()
 A4 f()
 {
 	A4 a(1, 2);
-	return a;
+	return a; // 返回创建的匿名对象
 }
 
-void main()
+void mainObjDisplay()
 {
-	A4 b;
-	b = f();
+	//A4 a;
+	//a = f();
 
-	//system("pause");
+	A4 b = f(); // 与57行有本质区别  赋值操作 和 对象初始化操作，这边是匿名对象直接赋值，不会调用构造函数
+
+	cout << "测试测试" << endl;
+}
+
+void main08()
+{
+	mainObjDisplay();
+
+	system("pause");
 }
