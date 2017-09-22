@@ -29,7 +29,7 @@ private:
 	
 };
 
-void main()
+void main04()
 {
 	Child4 c;
 
