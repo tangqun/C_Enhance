@@ -52,7 +52,7 @@ void sale(Goods * &pHead, Goods * &pCur)
 	cout << "saled." << endl;
 }
 
-void main()
+void main02()
 {
 	Goods * pHead = NULL /*ͷ*/, *pCur = NULL;
 	int  w;  int  choice;

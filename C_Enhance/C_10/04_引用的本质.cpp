@@ -8,6 +8,7 @@ struct Teacher
 	char name[16];
 };
 
+// Ö»¶Á
 int printTe(const Teacher &t)
 {
 	// t.age = 10; err
@@ -15,6 +16,7 @@ int printTe(const Teacher &t)
 	return 0;
 }
 
+// Ö»¶Á
 int printTe2(const Teacher * const myp)
 {
 	// myp->age = 10; err
@@ -29,6 +31,9 @@ void main04()
 	char &b = a;
 
 	cout << a << "\n";
+
+	// int &a2 = 19; // err
+	const int &a3 = 19;
 
 	system("pause");
 

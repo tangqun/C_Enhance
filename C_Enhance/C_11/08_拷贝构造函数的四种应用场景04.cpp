@@ -54,7 +54,7 @@ A4 f()
 void mainObjDisplay()
 {
 	A4 a;		// 调用构造函数创建对象
-	a = f();  // 匿名对象 = 赋值
+	a = f();  // 匿名对象 = 赋值，赋值完毕后 立即析构匿名对象 
 
 	A4 b = f(); // 与57行有本质区别  赋值操作 和 对象初始化操作，
 				// 不会调用构造函数，匿名对象直接转化为 b 对象
@@ -64,7 +64,7 @@ void mainObjDisplay()
 	cout << "测试测试" << endl;
 }
 
-void main08()
+void main()
 {
 	mainObjDisplay();
 

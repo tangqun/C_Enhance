@@ -15,28 +15,17 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01_全局函数与类成员函数互转.cpp">
+    <ClCompile Include="01_子类类继承对类访问属性的影响.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="02_货物链表类.cpp">
+    <ClCompile Include="02_赋值兼容性原则.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="03_运算符重载两种写法.cpp">
+    <ClCompile Include="03_父类只有带参数的构造函数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Array.cpp">
+    <ClCompile Include="04_static关键字遇上继承.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="04_ArrayTest.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="05_const测试.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Array.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

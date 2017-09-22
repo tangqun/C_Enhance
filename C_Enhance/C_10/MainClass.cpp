@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void main()
+void main07()
 {
 	MyPoint myp;
 	MyCircle c1;

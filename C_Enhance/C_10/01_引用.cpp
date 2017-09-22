@@ -2,12 +2,12 @@
 
 using namespace std;
 
-//int& f2()
-//{
-//	int a;
-//	a = 100;
-//	return a;
-//}
+int& f2()
+{
+	int a;
+	a = 100;
+	return a;
+}
 //
 //int* f3()
 //{
@@ -16,7 +16,7 @@ using namespace std;
 //	return &a;
 //}
 
-void main01()
+void main()
 {
 	/*int a = 10;
 
@@ -24,11 +24,11 @@ void main01()
 
 	int a2 = f2();
 
-	cout << "a2: " << a2 << ", &a2: " << &a2 << "\n";
+	cout << "a2: " << a2 << ", &a2: " << &a2 << "\n";*/
 
 	int &a3 = f2();
 
-	cout << "a3: " << a3 << ", &a3: " << &a3 << "\n";*/
+	cout << "a3: " << a3 << ", &a3: " << &a3 << "\n";
 
 	system("pause");
 }
