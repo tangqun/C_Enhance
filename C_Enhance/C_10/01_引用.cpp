@@ -2,23 +2,23 @@
 
 using namespace std;
 
-int& f2()
-{
-	int a;
-	a = 100;
-	return a;
-}
-
-int* f3()
-{
-	int a = 100;
-
-	return &a;
-}
+//int& f2()
+//{
+//	int a;
+//	a = 100;
+//	return a;
+//}
+//
+//int* f3()
+//{
+//	int a = 100;
+//
+//	return &a;
+//}
 
 void main01()
 {
-	int a = 10;
+	/*int a = 10;
 
 	cout << "a: " << a << ", &a: " << &a << "\n";
 
@@ -28,7 +28,7 @@ void main01()
 
 	int &a3 = f2();
 
-	cout << "a3: " << a3 << ", &a3: " << &a3 << "\n";
+	cout << "a3: " << a3 << ", &a3: " << &a3 << "\n";*/
 
 	system("pause");
 }

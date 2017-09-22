@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6ADE0079-9E1B-49EC-89DA-1458AF6D60A2}</ProjectGuid>
+    <ProjectGuid>{468F3ADF-5BE7-4D4E-B325-F1FC582419DC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>C_11</RootNamespace>
+    <RootNamespace>C_12</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -145,6 +145,21 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\C_11\01_Exam01.cpp" />
+    <ClCompile Include="..\C_11\02_Exam02.cpp" />
+    <ClCompile Include="..\C_11\03_Exam03.cpp" />
+    <ClCompile Include="..\C_11\04_Exam04.cpp" />
+    <ClCompile Include="..\C_11\05_拷贝构造函数的四种应用场景01.cpp" />
+    <ClCompile Include="..\C_11\06_拷贝构造函数的四种应用场景02.cpp" />
+    <ClCompile Include="..\C_11\07_拷贝构造函数的四种应用场景03.cpp" />
+    <ClCompile Include="..\C_11\08_拷贝构造函数的四种应用场景04.cpp" />
+    <ClCompile Include="..\C_11\09_深copy与浅copy.cpp" />
+    <ClCompile Include="..\C_11\10_多个对象的初始化.cpp" />
+    <ClCompile Include="..\C_11\11_newdelete关键字.cpp" />
+    <ClCompile Include="..\C_11\12_static关键字.cpp" />
+    <ClCompile Include="..\C_11\13_面向对象模型初探.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

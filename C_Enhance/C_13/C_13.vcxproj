@@ -18,10 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="01_全局函数与类成员函数互转.cpp" />
+    <ClCompile Include="02_货物链表类.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6ADE0079-9E1B-49EC-89DA-1458AF6D60A2}</ProjectGuid>
+    <ProjectGuid>{CF186B32-F5B6-4110-8582-EDF1826F7188}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>C_11</RootNamespace>
+    <RootNamespace>C_13</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
