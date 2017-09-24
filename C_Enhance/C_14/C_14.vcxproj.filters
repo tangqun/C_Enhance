@@ -30,8 +30,19 @@
     <ClCompile Include="05_多继承.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="06_堕胎案例.cpp">
+    <ClCompile Include="06_多态案例.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StringTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="String.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

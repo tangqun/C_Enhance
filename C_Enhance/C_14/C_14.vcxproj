@@ -151,7 +151,12 @@
     <ClCompile Include="03_父类只有带参数的构造函数.cpp" />
     <ClCompile Include="04_static关键字遇上继承.cpp" />
     <ClCompile Include="05_多继承.cpp" />
-    <ClCompile Include="06_堕胎案例.cpp" />
+    <ClCompile Include="06_多态案例.cpp" />
+    <ClCompile Include="String.cpp" />
+    <ClCompile Include="StringTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="String.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

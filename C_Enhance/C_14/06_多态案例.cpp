@@ -77,7 +77,7 @@ void play(HeroFighter *pHF, EnemyFighter *pEF)
 	}
 }
 
-void main()
+void main06()
 {
 	HeroFighter hf;
 	AdvHeroFighter ahf;
