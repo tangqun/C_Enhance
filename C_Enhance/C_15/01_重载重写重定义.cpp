@@ -7,7 +7,7 @@ class A
 public:
 	A()
 	{
-
+		print(10);
 	};
 	~A()
 	{
@@ -16,12 +16,17 @@ public:
 
 	void print()
 	{
-		cout << "这是父类函数" << endl;
+		cout << "父类print函数" << endl;
 	}
 
 	virtual void print(int i)
 	{
-		cout << "这是父类虚函数" << endl;
+		cout << "父类print虚函数" << endl;
+	}
+
+	void print(int i, int j)
+	{
+		cout << "父类print函数，子类没有" << endl;
 	}
 
 private:
@@ -40,23 +45,33 @@ public:
 
 	};
 
+	void print()
+	{
+		cout << "子类print函数" << endl;
+	}
+
 	void print(int i)
 	{
-		cout << "这是子类虚函数" << endl;
+		cout << "子类print重写函数" << endl;
 	}
 
 private:
 
 };
 
-void main()
+void main01()
 {
-	A *a = new B;
-	a->print();
+	//A *a = new B;
+	//a->print();
+	//a->print(10);
 
-	B *b = new B;
-	b->A::print();
+	//B *b = new B;
+	//b->print(); 
+	//b->print(10);
+	//b->A::print(10, 20); // c#支持直接访问
+
+	B *b2 = new B;
 	
-
+	
 	system("pause");
 }
