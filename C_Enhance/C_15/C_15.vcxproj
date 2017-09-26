@@ -113,6 +113,12 @@
     <ClCompile Include="01_重载重写重定义.cpp" />
     <ClCompile Include="02_虚析构函数.cpp" />
     <ClCompile Include="03_多继承的真正应用场景.cpp" />
+    <ClCompile Include="MainClass.cpp" />
+    <ClCompile Include="MySocket1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MySocket1.h" />
+    <ClInclude Include="SocketProtocol.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
