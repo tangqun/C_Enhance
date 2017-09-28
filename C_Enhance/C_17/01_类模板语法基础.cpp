@@ -61,7 +61,7 @@ void printC(C *c)
 	cout << c->getA() << endl;
 }
 
-void main()
+void main01()
 {
 	C c(1, 2);
 
