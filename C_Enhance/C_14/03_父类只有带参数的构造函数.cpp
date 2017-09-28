@@ -22,7 +22,7 @@ private:
 class Parent3 : public Object3
 {
 public:
-	Parent3(int _a, int _b, const char *p) : Object3(p)
+	Parent3(int _a, int _b, const char *p) : Object3(p) // 在没有默认构造函数的时候，必须手动制定构造函数进行初始化
 	{
 		a = _a;
 		b = _b;

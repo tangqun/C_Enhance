@@ -5,6 +5,12 @@
 
 using namespace std;
 
+/*
+访问权限：三看
+1、看调用语句在子类的内部 or 外部
+2、看子类如何从父类继承 public、 protected、 private
+3、看父类的访问级别
+*/
 class A
 {
 private:

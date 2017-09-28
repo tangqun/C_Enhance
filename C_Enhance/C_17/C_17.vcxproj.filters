@@ -14,26 +14,4 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="socketclient.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="01_函数指针语法基础.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="02_函数指针做函数参数.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="03_动态库变成框架.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="04_函数模板语法基础.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="05_函数模板遇上函数重载.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
 </Project>

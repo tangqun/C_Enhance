@@ -27,7 +27,7 @@ int playObj(int(*FuncType)(int, int))
 	return FuncType(12, 4);
 }
 
-void main()
+void main02()
 {
 	cout << playObj(add) << endl; 
 
