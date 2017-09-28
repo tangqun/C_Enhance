@@ -33,58 +33,58 @@ int main03()
 	strcpy(buf, "aaaaaaaaaaaaaaaaaaaaaaaaafffffffffffffffffffffff");
 
 
-	buflen = 10;
-	rv = cltSocketInit(&handle);
-	if (rv != 0)
-	{
-		printf("func cltSocketInit():%d", rv);
-		return rv;
-	}
-	
-	
-	// cvtres.exe
-	rv = clitSocket_SetEncFunc(handle, myEncData2, NULL, 0);
-	if (rv != 0)
-	{
-		printf("func cltSocketInit():%d", rv);
-		goto End;
-	}
-	
-	
-	rv = cltSocketSend(handle, buf,  buflen);
-	if (rv != 0)
-	{
-		printf("func cltSocketSend():%d", rv);
-		goto End;
-	}
-	/*
-	rv = cltSocketSend_enc(handle, buf,  buflen, myEncData, NULL, 0);
-	if (rv != 0)
-	{
-		printf("func cltSocketSend_enc():%d", rv);
-		goto End;
-	}
-	*/
-
-
-	rv = cltSocketRev(handle, buf2 , &buflen2);
-	if (rv != 0)
-	{
-		printf("func cltSocketRev():%d", rv);
-		goto End;
-	}
-	printf("\n%s", buf2);
-
-End:
-
-	rv = cltSocketDestory(handle);
-	if (rv != 0)
-	{
-		printf("func cltSocketDestory():%d", rv);
-		return rv;
-	}
-
-	printf("hello....\n");
+//	buflen = 10;
+//	rv = cltSocketInit(&handle);
+//	if (rv != 0)
+//	{
+//		printf("func cltSocketInit():%d", rv);
+//		return rv;
+//	}
+//	
+//	
+//	// cvtres.exe
+//	rv = clitSocket_SetEncFunc(handle, myEncData2, NULL, 0);
+//	if (rv != 0)
+//	{
+//		printf("func cltSocketInit():%d", rv);
+//		goto End;
+//	}
+//	
+//	
+//	rv = cltSocketSend(handle, buf,  buflen);
+//	if (rv != 0)
+//	{
+//		printf("func cltSocketSend():%d", rv);
+//		goto End;
+//	}
+//	/*
+//	rv = cltSocketSend_enc(handle, buf,  buflen, myEncData, NULL, 0);
+//	if (rv != 0)
+//	{
+//		printf("func cltSocketSend_enc():%d", rv);
+//		goto End;
+//	}
+//	*/
+//
+//
+//	rv = cltSocketRev(handle, buf2 , &buflen2);
+//	if (rv != 0)
+//	{
+//		printf("func cltSocketRev():%d", rv);
+//		goto End;
+//	}
+//	printf("\n%s", buf2);
+//
+//End:
+//
+//	rv = cltSocketDestory(handle);
+//	if (rv != 0)
+//	{
+//		printf("func cltSocketDestory():%d", rv);
+//		return rv;
+//	}
+//
+//	printf("hello....\n");
 	
 	//system("pause");
 
