@@ -5,7 +5,7 @@ using namespace std;
 class Interface1
 {
 public:
-	virtual int add(int i, int j) = 0;
+	virtual int add(int i, int j) = 0; // 抽象方法 C 纯虚函数
 
 private:
 

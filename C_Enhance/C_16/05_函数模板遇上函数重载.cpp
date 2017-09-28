@@ -19,6 +19,11 @@ using namespace std;
 函数模板的本质：
 通过汇编得知 就是生成了多个函数
 */
+
+/*
+为什么会有函数模板（泛型）
+写一个通用的函数，但是不确定参数 及 返回值的类型，这样一个函数就相当于写了 N 个函数
+*/
 int max(int a, int b)
 {
 	cout << "int max(int a, int b)" << endl;
