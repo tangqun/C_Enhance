@@ -18,20 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="01_类模板语法基础.cpp" />
-    <ClCompile Include="02_类模板遇上函数重载.cpp" />
-    <ClCompile Include="03_类模板遇上static.cpp" />
-    <ClCompile Include="04_复数模板类.cpp" />
-    <ClCompile Include="05_vector.cpp" />
-    <ClCompile Include="06_stack.cpp" />
-    <ClCompile Include="07_queue.cpp" />
-    <ClCompile Include="08_list.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{05C5CB2A-5C17-41F5-9108-AC8BD73A2A76}</ProjectGuid>
+    <ProjectGuid>{6DF6F815-8154-4A5D-B736-B70B0BDF967F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>C_17</RootNamespace>
+    <RootNamespace>C_19</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -103,7 +93,6 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -156,6 +145,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -44,7 +44,7 @@ void Complex<T>::print() const
 	cout << this->_real << " + " << this->_image << endl;
 }
 
-void main()
+void main04()
 {
 	Complex<double> c1(2.5, 3.7), c2(4.2, 6.5);
 	Complex<double> c;

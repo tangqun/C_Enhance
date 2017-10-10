@@ -14,30 +14,4 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="01_类模板语法基础.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="02_类模板遇上函数重载.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="03_类模板遇上static.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="04_复数模板类.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="05_vector.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="06_stack.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="07_queue.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="08_list.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
 </Project>
