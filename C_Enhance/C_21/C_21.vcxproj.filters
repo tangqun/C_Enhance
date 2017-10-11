@@ -15,16 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01_循环链表.cpp">
+    <ClCompile Include="01_选择排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="02_双向链表.cpp">
+    <ClCompile Include="02_插入排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="04_栈的链式存储.cpp">
+    <ClCompile Include="03_冒泡排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="03_栈的顺序存储.cpp">
+    <ClCompile Include="04_希尔排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="05_快速排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="06_归并排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

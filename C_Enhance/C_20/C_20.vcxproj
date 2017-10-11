@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D0A80E65-9BF9-4C56-BC46-ED6283D53CEC}</ProjectGuid>
+    <ProjectGuid>{A27DB602-1EEF-4110-BAD8-77D8A2B3DEDE}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>C_18</RootNamespace>
+    <RootNamespace>C_20</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,10 +146,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="01_动态库变成框架数据加密属性注入版.cpp" />
-    <ClCompile Include="02_类模板遇上友元函数操作符重载已解决.cpp" />
-    <ClCompile Include="03_链表顺序存储.cpp" />
-    <ClCompile Include="04_链表链式存储.cpp" />
+    <ClCompile Include="01_队列的顺序存储.cpp" />
+    <ClCompile Include="02_队列的链式存储.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

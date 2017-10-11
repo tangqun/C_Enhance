@@ -21,10 +21,10 @@
     <ClCompile Include="02_类模板遇上友元函数操作符重载已解决.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="03_链表线性存储.cpp">
+    <ClCompile Include="04_链表链式存储.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="04_链表链式存储.cpp">
+    <ClCompile Include="03_链表顺序存储.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
